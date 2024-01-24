@@ -201,11 +201,11 @@ def main_system():
     Tree_table.place(x=1,y=1)
     scroll_bar.config(command=Tree_table.yview)
 
-    # set label that shows the sum of all payments 
+    # set label that shows the sum of all quatities 
     label = tk.Label(system,text="Label",width=25,bg="white",bd=1)
     label.place(x=575,y=892)
     tk.Label(system,text="Total Quntity:",bd=1,font=("Microsoft Yahei UI Light",10),bg="#ADD8E6").place(x=477,y=890)
-    # label to show the sum of all consumptions
+    # label to show the sum of all prices
     label_1 = tk.Label(system,text="Label",width=25,bd=1,bg="white")
     label_1.place(x=890,y=892)
     tk.Label(system,text="Total Price:",bd=1,font=("Microsoft Yahei UI Light",10),bg="#ADD8E6").place(x=812,y=890)

@@ -30,7 +30,7 @@ def view_command():
         # show the calculated paytments
         label.config(text=str(total))
         
-        # index and sun all of the consumptions
+        # index and sum all of the consumptions
         total_1 += int(index[4])
         # show the sum of all consumptions
         label_1.config(text=str(total_1))

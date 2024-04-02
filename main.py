@@ -9,7 +9,7 @@ import sqlite3
 
 
 
-# inserting all items from the database to the screen
+# retrieving  all items from the database to the screen
 def view_command():
     global total
     global total_1
